@@ -1,0 +1,38 @@
+.h1__prank {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 50px 50px;
+}
+.button {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    animation: top 2s infinite;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    text-transform: initial;
+}
+@keyframes top{
+    0%{
+        background-color: aquamarine;
+    }
+    25%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: chartreuse;
+    }
+    75%{
+        background-color: crimson;
+    }
+    100%{
+        background-color: chocolate;
+    }
+}
+.block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
